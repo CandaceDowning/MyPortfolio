@@ -1,0 +1,31 @@
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  position: sticky;
+  top: 0px;
+  background-color: #000000;
+}
+.nav-bar {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-name {
+  font-size: 2em;
+  color: hotpink;
+  border: none;
+  background-color: transparent;
+}
+
+.nav-btn-bar {
+}
+
+.nav-btn {
+  font-size: 1.2em;
+  color: turquoise;
+  border: none;
+  background-color: transparent;
+}

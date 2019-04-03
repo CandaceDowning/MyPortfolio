@@ -1,0 +1,62 @@
+#landing-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-image: linear-gradient(-200deg, turquoise, white);
+  height: 100vh;
+  margin-top: -10vh;
+}
+
+.pic-info-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50vh;
+}
+.portrait {
+  border: 10px solid hotpink;
+  border-radius: 50%;
+  height: 25vw;
+  margin: auto 10vw auto 20vw;
+}
+
+.landing-info-box {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vw;
+  width: 20vw;
+  color: turquoise;
+  background-color: black;
+  font-size: 1vw;
+}
+
+a {
+  color: turquoise;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+#contact-main {
+  display: flex;
+  justify-content: center;
+}
+a {
+  height: 3em;
+  margin: auto 3vw auto 3vw;
+}
+img {
+  color: white;
+  height: 3em;
+  margin: auto 3vw auto 3vw;
+}
+
+h2 {
+  margin: 0;
+}
