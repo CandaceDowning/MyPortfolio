@@ -1,6 +1,63 @@
 #projects-main {
-  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 90vh; */
   background-color: black;
+
+  padding-top: 15vh;
+}
+.project-title {
+  color: hotpink;
+  font-size: 8vh;
+  margin-bottom: 100px;
+}
+.carousel-info {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+}
+.info {
+  width: 500px;
+}
+
+.one {
   color: turquoise;
-  padding-top: 10vh;
+}
+.two {
+  color: hotpink;
+}
+.middle {
+  padding-top: 15vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.one a {
+  color: hotpink;
+}
+.one a:hover {
+  color: blue;
+}
+
+.two a {
+  color: turquoise;
+}
+.two a:hover {
+  color: blue;
+}
+
+.down-pink {
+  margin: 5vh auto 50vh auto;
+}
+
+.down-turq {
+  margin: 5vh auto 30vh auto;
+}
+
+.last {
+  margin-bottom: 10vh;
 }

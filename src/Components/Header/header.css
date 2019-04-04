@@ -7,6 +7,8 @@
   position: sticky;
   top: 0px;
   background-color: #000000;
+  z-index: 1;
+  border-bottom: 3px solid blue;
 }
 .nav-bar {
   width: 90vw;
@@ -14,18 +16,36 @@
   justify-content: space-between;
 }
 .nav-name {
-  font-size: 2em;
+  font-size: 2vw;
   color: hotpink;
   border: none;
   background-color: transparent;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.nav-name:hover {
+  color: turquoise;
 }
 
 .nav-btn-bar {
 }
 
 .nav-btn {
-  font-size: 1.2em;
+  font-size: 1.5vw;
   color: turquoise;
   border: none;
   background-color: transparent;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.nav-btn:hover {
+  color: hotpink;
+}
+
+@media (min-width: 1000px) {
+  .nav-name {
+    font-size: 3vh;
+  }
+  .nav-bar {
+    font-size: 1vh;
+  }
 }

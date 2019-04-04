@@ -13,15 +13,15 @@ class Header extends Component {
             <a href='#about-main'>
               <button className='nav-btn'>About</button>
             </a>
-            <a href='#skills-main'>
+            {/* <a href='#skills-main'>
               <button className='nav-btn'>Skills</button>
-            </a>
+            </a> */}
             <a href='#projects-main'>
               <button className='nav-btn'>Projects</button>
             </a>
-            <a href='#contact-main'>
+            {/* <a href='#contact-main'>
               <button className='nav-btn'>Contact</button>
-            </a>
+            </a> */}
           </div>
         </nav>
       </div>
