@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 40vh;
+  height: 50vh;
   background-image: linear-gradient(200deg, hotpink, white);
-  padding-top: 10vh;
+  padding-top: 7vh;
+  padding-bottom: 6vh;
   border-bottom: 3px solid blue;
 }
 
@@ -12,8 +13,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50vw;
-  height: 15vw;
+  width: 75%;
+  height: 70%;
 }
 .row-skills {
   display: flex;
@@ -24,8 +25,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 4vh;
 }
 .icon {
-  font-size: 5em;
+  /* font-size: 5em; */
+  font-size: 15vw;
   color: black;
+}
+
+@media (min-width: 605px) {
+  #skills-main {
+    height: 40vh;
+  }
+
+  .skills-icons {
+    width: 50vw;
+    height: 15vw;
+  }
+  .icon {
+    font-size: 5em;
+  }
 }

@@ -1,35 +1,44 @@
 #projects-main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* height: 90vh; */
   background-color: black;
-
   padding-top: 15vh;
 }
 .project-title {
   color: hotpink;
   font-size: 8vh;
-  margin-bottom: 100px;
+
+  margin-bottom: 10vh;
 }
+
 .carousel-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 90vw;
 }
+
 .info {
-  width: 500px;
+  width: 80vw;
+  margin: 3vh auto 2vh auto;
 }
 
 .one {
   color: turquoise;
 }
+.one h1 {
+  color: hotpink;
+}
 .two {
   color: hotpink;
 }
+.two h1 {
+  color: turquoise;
+}
 .middle {
-  padding-top: 15vh;
+  padding-top: 20vh;
 }
 
 a {
@@ -40,24 +49,54 @@ a {
   color: hotpink;
 }
 .one a:hover {
-  color: blue;
+  color: turquoise;
 }
 
 .two a {
   color: turquoise;
 }
 .two a:hover {
-  color: blue;
+  color: hotpink;
 }
 
 .down-pink {
-  margin: 5vh auto 50vh auto;
+  margin: 5vh auto 40vh auto;
+}
+
+.up-turq {
+  margin: 5vh auto 0 auto;
+  transform: rotate(180deg);
 }
 
 .down-turq {
-  margin: 5vh auto 30vh auto;
+  /* margin: 5vh auto 32vh auto; */
+  margin: 10vh auto 30vh auto;
+}
+
+.up-pink {
+  transform: rotate(180deg);
+  margin-bottom: 3vh;
 }
 
 .last {
-  margin-bottom: 10vh;
+  margin: 5vh auto 20vh auto;
+}
+
+.last h1 {
+  margin-top: 1vh;
+}
+
+@media (min-width: 605px) {
+  .project-title {
+    margin-bottom: 100px;
+  }
+  .carousel-info {
+    flex-direction: row;
+  }
+  .info {
+    width: 500px;
+  }
+  .down-turq {
+    margin: 5vh auto 32vh auto;
+  }
 }

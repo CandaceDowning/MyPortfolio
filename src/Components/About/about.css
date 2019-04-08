@@ -1,20 +1,30 @@
 #about-main {
   display: flex;
   justify-content: center;
-  height: 38vh;
+  height: 30vh;
   background-color: black;
-  padding-top: 10vh;
+  padding-top: 7vh;
   border-bottom: 3px solid blue;
 }
 
 .about-content {
   color: turquoise;
-  width: 50vw;
+  width: 75vw;
   margin-top: 5vh;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 1.5vh;
 }
 p {
   font-family: "Titillium Web", sans-serif;
-  font-size: 2vh;
+  font-size: 1.5vh;
+}
+
+@media (min-width: 600px) {
+  #about-main {
+    height: 38vh;
+  }
+  .about-content {
+    width: 50vw;
+  }
+  p {
+    font-size: 2vh;
+  }
 }

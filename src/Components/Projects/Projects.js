@@ -38,7 +38,6 @@ class Projects extends Component {
             img3={chromaQuiz}
             img4={chromaChart}
             img5={chromaEmail}
-            img6={chromaDestruct}
           />
           <div className='info one'>
             <h1>Chroma-Glow</h1>
@@ -61,6 +60,7 @@ class Projects extends Component {
             <img src={pinkArrow} alt='down arrow' className='down-pink' />
           </a>
         </div>
+
         <div className='carousel-info middle' id='project-2'>
           <div className='info two'>
             <h1>Flavor-Savor</h1>
@@ -74,7 +74,7 @@ class Projects extends Component {
               and supports multiple recipes for each meal.
             </p>
             <p>
-              Tech Used: React, Express, Node, SCSS, Redux, bcrypt, Postgress,
+              Tech Used: React, Express, Node, SCSS, Redux, bcrypt, PostgreSQL,
               Redux
             </p>
 
@@ -86,14 +86,14 @@ class Projects extends Component {
             img1={flavorLanding}
             img2={flavorBrowse}
             img3={flavorLarge}
-            img4={flavorPlan}
-            img5={flavorForum}
-            // img6={flavorProfile}
-          />
+            img4={flavorForum}
+            img5={flavorProfile}
+          />{" "}
         </div>
         <a href='#project-3'>
           <img src={turqArrow} alt='down arrow' className='down-turq' />
         </a>
+
         <div className='carousel-info last'>
           <Carousel
             img1={rainbowRed}
@@ -101,7 +101,6 @@ class Projects extends Component {
             img3={rainbowGreen}
             img4={rainbowBlue}
             img5={rainbowPurple}
-            // img6={rainbowGallery}
           />
           <div className='info one' id='project-3'>
             <h1>Rainbow Gallery</h1>

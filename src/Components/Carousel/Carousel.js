@@ -26,9 +26,6 @@ const Carousel = props => {
           <div id='four' className='slide'>
             <img className='img' src={props.img5} alt='slide-three' />
           </div>
-          {/* <div id='four' className='slide'>
-            <img className='img' src={props.img6} alt='slide-three' />
-          </div> */}
         </figure>
       </div>
     </div>

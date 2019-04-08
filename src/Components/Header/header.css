@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 .nav-name {
-  font-size: 2vw;
+  font-size: 5vw;
   color: hotpink;
   border: none;
   background-color: transparent;
@@ -30,7 +30,7 @@
 }
 
 .nav-btn {
-  font-size: 1.5vw;
+  font-size: 4vw;
   color: turquoise;
   border: none;
   background-color: transparent;
@@ -40,12 +40,11 @@
 .nav-btn:hover {
   color: hotpink;
 }
-
-@media (min-width: 1000px) {
-  .nav-name {
+@media (min-width: 605px) {
+  .nav-btn {
     font-size: 3vh;
   }
-  .nav-bar {
-    font-size: 1vh;
+  .nav-name {
+    font-size: 4vh;
   }
 }
