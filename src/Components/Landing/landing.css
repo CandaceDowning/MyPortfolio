@@ -98,6 +98,7 @@ h1 {
     height: 25vw;
     width: 25vw;
     margin: auto 10vw auto 20vw;
+    object-fit: cover;
   }
   .landing-info-box {
     height: 20vw;
