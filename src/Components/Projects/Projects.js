@@ -52,7 +52,7 @@ class Projects extends Component {
               Tech Used: React, Express, Node, SCSS, Redux, bcrypt, Postgress,
               Redux
             </p>{" "}
-            <a href='chroma-glow.space'>View</a>
+            <a href='https://github.com/CandaceDowning/chroma-glow' target="_blank" rel="noopener noreferrer">View on GitHub</a>
           </div>
         </div>
         <div>
@@ -78,7 +78,7 @@ class Projects extends Component {
               Redux
             </p>
 
-            <a href='https://github.com/flavor-savors/flavor-savors'>
+            <a href='https://github.com/flavor-savors/flavor-savors' target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
           </div>
@@ -119,7 +119,7 @@ class Projects extends Component {
               delete the image.
             </p>
             <p>Tech Used: React, Axios, Express</p>
-            <a href='https://github.com/CandaceDowning/rainbow-gallery'>
+            <a href='https://github.com/CandaceDowning/rainbow-gallery' target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
           </div>
